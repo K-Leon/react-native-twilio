@@ -6,8 +6,8 @@
 //  Copyright © 2015 Rogchap Software. All rights reserved.
 //
 
-#import "RCTTwilio.h"
-#import "RCTEventEmitter.h"
+#import <React/RCTTwilio.h>
+#import <React/RCTEventEmitter.h>
 
 NSString *const deviceDidReceiveIncoming = @"deviceDidReceiveIncoming";
 NSString *const deviceDidStartListening = @"deviceDidStartListening";
